@@ -22,4 +22,13 @@ things they support well basics which are used by the most applications - BUT, t
 year and meanwhile instead fixes of issues we got *Prisma Accelerate* which will boost performance of your queries however,
 take on mind 10% queries which may be crucial for your application will not be supported.
 
+From the good side - remember that `prisma` is the only ORM that provides correct introspection of database up to this day,
+second one may be `drizzle` however drizzle is not a ORM so I exclude it from competition there, `prisma` as the only ORM
+provides migration toolkit that works and will not destroy database schema because of the schema introspection capabilities.
+
+Personally, I was using `prisma` since `1.x` release and it was fucking disaster, what we have now is way better and usabe
+then releases we had before and it slowly gets better. So; I was using it since then and I'll keep using it for a next years
+as there is no viable alternative if one wants to have type-safety during interactions with database, behind that codegen
+features are killer which can save weeks of coding.
+
 GLHF, be responssible in the choice of your tech.
