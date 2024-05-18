@@ -19,7 +19,7 @@ to conclusion to always add to application ORM and some query builder or tool fo
 sole ORM as they often do not support multiple things and other things are barely portable to TypeScript in a favorable
 manner. I'm not here to blame `prisma` as `typeorm` is way shittier even through `prisma` do not support a lot of
 things they support well basics which are used by the most applications - BUT, there issues are in backlog for over
-year and meanwhile instead fixes of issues we got *Prisma Accelerate* which will boost performance of your queries
-- however, take on mind 10% queries which may be crucial for your application will not be supported.
+year and meanwhile instead fixes of issues we got *Prisma Accelerate* which will boost performance of your queries however,
+take on mind 10% queries which may be crucial for your application will not be supported.
 
 GLHF, be responssible in the choice of your tech.
